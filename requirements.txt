@@ -1,2 +1,11 @@
-pyotp
-qrcode[pil]
+certifi==2024.7.4
+charset-normalizer==3.3.2
+idna==3.7
+pillow==10.4.0
+pyotp==2.9.0
+pypng==0.20220715.0
+qrcode==7.4.2
+requests==2.32.3
+typing_extensions==4.12.2
+urllib3==2.2.2
+
