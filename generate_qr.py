@@ -5,6 +5,8 @@ import sys
 # Reference: https://pyauth.github.io/pyotp/
 
 def generate_qr():
+    # helper function to generate a 32-character base32 secret
+    # compatible with Google Authenticator and other OTP apps.
     secret = pyotp.random_base32()
     
     with open('secret.txt', 'w') as f:

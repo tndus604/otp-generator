@@ -10,6 +10,7 @@ def get_otp():
     while True:
         print("Current OTP:", totp.now())
         time.sleep(30)
+        print(time.sleep(30))
 
 if __name__ == "__main__":
     get_otp()
