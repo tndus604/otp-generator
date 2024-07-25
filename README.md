@@ -38,9 +38,11 @@ pip install pyotp qrcode
 
 ## Example Output
 - **QR Code:**
+
     ![example_qrcode](./assets/otp_qr_example.jpg)
 
 - **Terminal Output:**
+
     ![get_otp](./assets/get_otp_terminal.png)
 
 
