@@ -10,8 +10,7 @@ __pycache__/
 secret.txt
 
 # Ignore the QR code image file if generated
-*.png
-*.jpg
+otp_qr.jpg
 *.svg
 
 # Ignore IDE/editor specific files
