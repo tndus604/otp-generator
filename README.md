@@ -17,7 +17,7 @@ The implementation consists of the following components:
 
 You can install the required libraries using:
 ```sh
-pip install pyotp qrcode
+pip3 install pyotp qrcode
 ```
 
 ## Usage
@@ -34,6 +34,32 @@ pip install pyotp qrcode
 3. To display the current OTP, run:
     ```
     ./submission --get-otp
+    ```
+
+## Using a Virtual Environment
+If you see the "error: externally-managed-environment" error, highly recommend to use a virtual environment. 
+1. Create a virtual environment using the following command:
+    ```
+    python3 -m venv venv
+    ```
+
+2. Activate the virtual environment:
+    ```
+    source venv/bin/activate (on macOS)
+
+    venv\Scripts\activate (on Windows)
+    ```
+
+3. Install the required libraries:
+    ```
+    pip install pyotp qrcode
+    ```
+
+4. Follow the steps in the [Usage](#usage) section.
+
+5. If you want to deactivate the virtual environment, run:
+    ```
+    deactivate
     ```
 
 ## Example Output
